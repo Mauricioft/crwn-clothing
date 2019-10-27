@@ -1,0 +1,20 @@
+$base-color: #f8d7da;
+$base-color-title: #721c24;
+
+.error {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+.error--danger {
+  background-color: $base-color;
+}
+
+.error__title {
+  color: $base-color-title;
+  font-size: 25px;
+  font-weight: 600;
+}
