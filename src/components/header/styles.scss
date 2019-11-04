@@ -20,6 +20,12 @@
 
     .option {
       padding: 10px 15px;
+      cursor: pointer;
+      &:hover {
+        color: #212529;
+        background-color: #dae0e5;
+        border-color: #d3d9df;
+      }
     }
   }
 }
